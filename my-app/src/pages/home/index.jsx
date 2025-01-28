@@ -1,11 +1,13 @@
 import {Link} from "react-router-dom";
 
-
+import { Button } from "../../components/Button"; // fazendo a importacao do button criado no menu principal
+import { Header } from "../../components/header";
 const Home = () => {
     
-    return (<><h1>Home</h1>
-         <Link to = "/Login">Fazer Login</Link>
-         </>)
+    return (<>
+        <Header/>
+        </>
+        )
     
 }
 
