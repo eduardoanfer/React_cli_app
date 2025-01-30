@@ -18,6 +18,10 @@ export const ButtonContainer = styled.button`
       min-width: 167px;
       height: 33px;
       background: #fd4e11;
+         &:hover {
+            opacity: 0.6; 
+            cursor: pointer; 
+        }
 
         &::after{
             content:"";
